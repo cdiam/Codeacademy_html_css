@@ -35,3 +35,61 @@ div p {
 #archnemesis {
 	border: 4px solid #cc0000;
 }
+
+
+
+/*Add your CSS below!*/
+
+div {
+	display: inline-block;
+	margin-left: 5px;
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	border: 2px solid black;
+
+
+}
+
+.friend{
+
+    border: 2px dashed #008000;
+}
+
+.family {
+
+    border: 2px dashed #0000ff;
+}
+
+.enemy {
+
+    border: 2px dashed #ff0000;
+}
+
+#best_friend {
+
+    border: 4px solid #00c957;
+}
+
+#archnemesis{
+
+    border:4px solid #cc0000;
+}
+
+
+
+/*
+Let's review what you learned:
+
+In the default box model, box dimensions are affected by border thickness and padding.
+The box-sizing property controls the box model used by the browser.
+The default value of the box-sizing property is content-box.
+The value for the new box model is border-box.
+The border-box model is not affected by border thickness or padding.
+
+*/
+
+
+* {
+  box-sizing: border-box;
+}
